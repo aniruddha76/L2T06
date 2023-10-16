@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head with Bootstrap link, style.css file for personal styling, font links from Google fonts and Title -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Phudu:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Hobby Page</title>
+  </head>
+
+  <!-- Body -->
+  <body>
+    <!-- Nav bar, heading and short paragraph -->
+    <section class="sub-header-2">
+      <nav>
+        <div class="nav-link">
+          <ul>
+            <li><a href="main.html">Home</a></li>
+            <li><a href="about me.html">About Me</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="save.html">Save For Later</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <header>
+        <h1>Contact Me</h1>
+      </header>
+    </section>
+
+    <!-- Main section with contact form-->
+    <div class="contact-form">
+      <form
+        action="mailto:vermeulentristan7@gmail.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <input type="submit" value="Send" />
+      </form>
+      <p>My email: vermeulentristan7@gmail.com</p>
+    </div>
+
+    <!-- Footer -->
+    <div class="bottom-2">
+      <footer>
+        <p>Made with &#9829; by Tristan Vermeulen</p>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="webpage.js"></script>
+  </body>
+</html>
+
+<!-- https://www.w3schools.com/howto/howto_website.asp
+     https://fonts.google.com/specimen/Phudu 
+     https://www.freecodecamp.org/news/html-best-practices/ 
+     https://www.w3schools.com/html/html_layout.asp 
+     https://www.w3schools.com/tags/att_input_type_radio.asp 
+     https://www.w3schools.com/tags/att_input_type_submit.asp -->
