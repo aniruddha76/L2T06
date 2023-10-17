@@ -109,6 +109,16 @@ nav {
 .game-text a {
   color: #ae3127;
 }
+.like-button {
+  background-color: #2d27a5;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.like-button.liked {
+  background-color: #ff6347;
+}
 
 /*Styling for footer*/
 .quote-container {
