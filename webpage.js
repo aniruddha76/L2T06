@@ -65,6 +65,14 @@ document
   });
 
 //Function to like an item
-function likeParagraph(thanks) {
-  alert(`${thanks}`);
+function likeParagraph(button, message) {
+  if (!button.classList.contains("liked")) {
+    button.classList.add("liked");
+    button.textContent = "Liked";
+  } else {
+    button.classList.remove("liked");
+    button.textContent = "Like";
+  }
+
+  alert(message);
 }
